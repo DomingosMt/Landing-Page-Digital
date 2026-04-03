@@ -69,3 +69,24 @@ a:hover {
 #inicio a:hover {
     transform: scale(1.1);
 }
+
+img {
+    width: 500px;
+    height: 300px;
+    aspect-ratio: 16 / 9;
+}
+
+.media-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.media-container img {
+    flex-shrink: 0;
+}
+
+.media-container::-webkit-scrollbar {
+    display: none;
+}
