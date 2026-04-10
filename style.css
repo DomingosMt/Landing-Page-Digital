@@ -17,10 +17,10 @@
     display: flex;
     gap: 50px;
 }
-
 .nav-items li a {
     padding: 10px;
     border-radius: 4px;
+    transition: 1s;
 }
 
 ul li {
@@ -68,4 +68,95 @@ a:hover {
 
 #inicio a:hover {
     transform: scale(1.1);
+}
+
+.sec-title {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.modulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0 10px 0 10px;
+}
+
+.modulo h2 {
+    font-weight: 300;
+    padding: 20px 0 20px 0;
+    color: #fff;
+    background-color: #333;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+}
+
+.mod-list {
+    padding: 20px 0 20px 0;
+    font-size: larger;
+}
+
+.mercado-trabalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+
+}
+
+.mercado-title {
+    margin: 50px 0 50px 0;
+}
+
+.dev-cont {
+    background-color: #d40485;
+    color:white;
+    width: inherit;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 110px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-cont span {
+    margin-top: 10px;
+}
+
+.form-cont input {
+    height: 27px;
+}
+
+
+.form-cont button {
+    margin-top: 10px;
+    height: 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #f3f3f3;
+    height: 60px;
+    font-weight: lighter;
+    font-size: 12px;
 }
